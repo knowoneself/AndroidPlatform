@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:background="#dadada" >
+
+    <include
+        android:id="@+id/title"
+        android:layout_alignParentTop="true"
+        layout="@layout/behind_title" />
+
+    <RadioGroup
+        android:id="@+id/menuRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title" >
+
+        <RadioButton
+            android:id="@+id/certificateRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu_bg"
+            android:button="@null"
+            android:drawableLeft="@drawable/dis_menu_handpick"
+            android:padding="5dp"
+            android:text="人员持证查询"
+            android:textColor="#666"
+            android:textSize="@dimen/behind_list_text_size" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_button_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/back_behind_menu"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <com.comtop.app.widget.CustomButton
+            android:id="@+id/cbSettings"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            Image="@drawable/button_setting"
+            ImageID="@+id/imageview_setting_button"
+            Text="@string/button_setting"
+            TextID="@+id/textview_setting_button"
+            android:background="@drawable/back_button_default_style"
+            android:clickable="true"
+            android:visibility="gone" >
+        </com.comtop.app.widget.CustomButton>
+
+        <include layout="@layout/merge_verticalside" />
+
+        <com.comtop.app.widget.CustomButton
+            android:id="@+id/cbFeedback"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            Image="@drawable/button_feedback"
+            ImageID="@+id/imageview_feedback_button"
+            Text="@string/button_feedback"
+            TextID="@+id/textview_feedback_button"
+            android:background="@drawable/back_button_default_style"
+            android:clickable="true" >
+        </com.comtop.app.widget.CustomButton>
+
+        <include layout="@layout/merge_verticalside" />
+
+        <com.comtop.app.widget.CustomButton
+            android:id="@+id/cbsetting"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            Image="@drawable/button_setting"
+            ImageID="@+id/imageview_about_button"
+            Text="@string/button_setting"
+            TextID="@+id/textview_about_button"
+            android:background="@drawable/back_button_default_style"
+            android:clickable="true" >
+        </com.comtop.app.widget.CustomButton>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp" 
+    android:background="@drawable/rect_gray">
+
+    <TextView
+        android:id="@+id/projectName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:text="项目名称"
+        android:textColor="@color/list_font_color"
+        android:textSize="@dimen/content_font_size" />
+
+    <TextView
+        android:id="@+id/projectNameContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/projectName"
+        android:gravity="right"
+        android:textColor="@color/black"
+        android:textSize="@dimen/content_font_size" />
+
+    <TextView
+        android:id="@+id/projectType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/projectTypeContent"
+        android:layout_below="@+id/projectName"
+        android:layout_margin="5dp"
+        android:text="项目类型"
+        android:textColor="@color/list_font_color"
+        android:textSize="@dimen/content_font_size" />
+
+    <TextView
+        android:id="@+id/projectTypeContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/projectNameContent"
+        android:gravity="right"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/projectType"
+        android:textColor="@color/black"
+        android:textSize="@dimen/content_font_size" />
+
+</RelativeLayout>

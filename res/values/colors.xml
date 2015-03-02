@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#900</color>
+    <color name="green">#090</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="transparent">#0000</color>
+    <color name="backColor">#2000</color>
+    <color name="detail_bgColor">#f5f5f5</color>
+    <color name="defaultTextColor">#666</color>
+
+    <!-- start zxing -->
+    <color name="viewfinder_frame">#2477ab</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <!-- end zxing -->
+
+
+    <!-- 详细页面字颜�?-->
+    <color name="detailPersonName">#3D98D1</color>
+    
+    <color name="list_font_color">#3F4244</color>
+
+    <!-- back_linearlayoutbg点击的颜�?-->
+    <color name="unfocused">#f9f9f9</color>
+    <color name="pressed">#0033FF</color>
+    <color name="settingbg">#CCCCCC</color>
+    <color name="focused">#ffff44ff</color>
+    <color name="gray">#AFAFAF</color>
+    <color name="devide_line">#CBCED2</color>
+    <color name="blue">#499BF7</color>
+    <color name="gray_font">#818181</color>
+    <color name="refresh_head_bg">#2B2B2B</color>
+    <color name="popupWindow_bg">#20282B</color>
+
+</resources>

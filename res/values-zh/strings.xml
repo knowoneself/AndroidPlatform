@@ -1,0 +1,93 @@
+<resources>
+
+    <string name="app_name">人员持证查询</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- 页面子菜�?-->
+    <string name="subMenuPersonal">人员持证查询</string>
+    <string name="subMenuDone">已办</string>
+    <string name="subMenuFinish">审批已完�?/string>
+
+    <!-- 侧边栏按�?-->
+    <string name="button_setting">设置</string>
+    <string name="button_feedback">反馈</string>
+    <string name="button_about">使用技�?/string>
+    <string name="use_region">使用区域</string>
+
+    <!-- 侧边栏菜�?-->
+    <string name="menuPersonalCertificate">人员持证</string>
+
+    <!-- 登录 -->
+    <string name="user_title">comtop</string>
+    <string name="user_cancel">取消</string>
+    <string name="user_remember">记住密码</string>
+    <string name="user_enter">立即登录</string>
+    <string name="user_user_empty">用户名不能为�?</string>
+    <string name="user_pwd_empty">密码不能为空!</string>
+    <string name="user_login_prompt">请先登录</string>
+    <string name="user_login_enter_key">请先输入密钥</string>
+
+    <!-- 上拉下拉 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间�?/string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="press_again_exit">再按一次退�?/string>
+    <string name="about_weixin"> comtop_cn</string>
+
+    <!-- 详情页面 -->
+    <string name="detail_prompt"></string>
+    <string name="detail_enter"></string>
+    <string name="discuss_succeed"></string>
+    <string name="discuss_fail"></string>
+    <string name="queryHint">请输入关键字</string>
+
+    <!-- 用户反馈 -->
+    <string name="feedback_submit">提交</string>
+    <string name="feedback_input_content">请输入您的反馈意�?/string>
+    <string name="feedback_back">返回</string>
+    <string name="login_user_id_hint">登陆账号</string>
+    <string name="password">密码</string>
+    <string name="login">�?�?/string>
+
+    <!-- 设置 -->
+    <string name="ImportData">导入离线�?/string>
+    <string name="importTextName">导入离线数据</string>
+    <string name="updateTextName">在线更新数据</string>
+    <string name="exitTextName">安全退�?/string>
+    <string name="onLineData">在线数据</string>
+
+    <!-- 省份区域选择 -->
+    <string name="select_region">请选择使用区域</string>
+    <string name="definition_self">自定�?/string>
+    <string name="ip_define">例如�?0.10.38.146</string>
+    <string name="test">测试</string>
+    <string name="save">保存</string>
+    <string name="use_skill_step1">1.离线包加�?/string>
+    <string name="use_skill_text1">将数据包放到SD卡：/comtop/data/目录下，在下次登陆应用时，将自动识别并加载最新的数据包！</string>
+    <string name="use_skill_step2">2.在线、离线数据切�?/string>
+    <string name="use_skill_text2">在可以访问基建系统的Wifi网络环境下，可以启用应用的在线数据功能，这将会实时获取基建系统的最新数据；在外部网络环境下，可以切换回离线数据状态，获取离线包中的数据。AnyTime,AnyWhere，使用畅通无阻！</string>
+    <string name="use_skill_step3">3.人员持证查询</string>
+    <string name="use_skill_text3">在人员持证查询框中可以按：姓名、身份证号码、承包商名称、项目名称等条件进行查询，让你所关注的信息，一步轻松得到！</string>
+    <string name="use_skill_step4">4.问题反馈</string>
+    <string name="use_skill_text4">在使用过程中，有任何感觉不爽的地方，请马上吐槽，我们将虚心接受并在第一时间回复�?/string>
+
+    <!-- 二维码扫�?-->
+    <string name="scan_tip">请将二维码置于取景框内扫�?/string>
+    <string name="scan_title">扫一�?/string>
+    <string name="openLight">开�?/string>
+    <string name="closeLight">关灯</string>
+    <string name="p2refresh_head_load_more">加载更多</string>
+    <string name="p2refresh_end_load_more">�?   �?/string>
+    <string name="p2refresh_end_click_load_more">点击加载</string>
+    <string name="p2refresh_release_refresh">松开立即刷新</string>
+    <string name="p2refresh_pull_to_refresh">下拉刷新</string>
+    <string name="p2refresh_refresh_complete">刷新成功</string>
+    <string name="p2refresh_refresh_failure">刷新失败</string>
+    <string name="p2refresh_doing_head_refresh">正在刷新&#8230;</string>
+    <string name="p2refresh_doing_end_refresh">加载�?#8230;</string>
+    <string name="p2refresh_refresh_lasttime">最近更�?#160;&#058;&#160;</string>
+
+</resources>

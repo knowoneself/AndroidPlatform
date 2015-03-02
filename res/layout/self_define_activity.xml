@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myImportLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/tv_above_title"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="#2477AB" >
+
+        <TextView
+            android:id="@+id/tv_text_title"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/use_region"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/returnButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/login_button_padding"
+            android:background="@drawable/return_arrow_white"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/dataAreaName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_button_height"
+        android:layout_above="@+id/myIP"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="@dimen/login_button_padding"
+        android:layout_marginRight="@dimen/login_button_padding"
+        android:background="@drawable/rect_gray"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="20sp" />
+
+    <com.comtop.app.view.ClearEditText
+        android:id="@+id/myIP"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_button_height"
+        android:layout_above="@+id/test_IP"
+        android:layout_marginLeft="@dimen/login_button_padding"
+        android:layout_marginRight="@dimen/login_button_padding"
+        android:background="@drawable/edittext_bg2"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/ip_define"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/test_IP"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_button_height"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/login_button_padding"
+        android:layout_marginRight="@dimen/login_button_padding"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/login_button_bg"
+        android:text="@string/test"
+        android:textColor="@color/white"
+        android:textSize="@dimen/login_font_size" />
+
+    <Button
+        android:id="@+id/save_IP"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_button_height"
+        android:layout_below="@+id/test_IP"
+        android:layout_marginLeft="@dimen/login_button_padding"
+        android:layout_marginRight="@dimen/login_button_padding"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_button_bg"
+        android:text="@string/save"
+        android:textColor="@color/white"
+        android:textSize="@dimen/login_font_size" />
+
+</RelativeLayout>

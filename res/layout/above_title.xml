@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/title_height"
+    android:background="#2477AB">
+
+    <TextView
+        android:id="@+id/above_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="人员持证查询"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+     <!--  
+     <Button 
+            android:id="@+id/above_setting_but"
+            android:layout_width="50dp"
+            android:layout_height="32dp"  
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:textColor="#fff" 
+            android:textSize="18sp"
+            android:background="@drawable/above_setting_bg_btn"
+            android:text="设置"        
+            />
+     -->
+    <ImageButton
+        android:id="@+id/more_imageButton"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:layout_centerVertical="true"
+        android:src="@drawable/button_user_more" />
+   
+
+    <!--
+    <LinearLayout
+        android:id="@+id/Linear_above_toHome"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/back_above_menushow_style"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/above_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:src="@drawable/button_above_more" />
+
+        <TextView
+            android:id="@+id/above_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff" 
+            android:text="人员持证查询"/>
+    </LinearLayout>
+    -->
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="region">
+        <item>南方电网公司</item>
+        <item>超高压输电公�?/item>
+        <item>调峰调频发电公司</item>
+        <item>广东电网公司</item>
+        <item>广西电网公司</item>
+        <item>云南电网公司</item>
+        <item>贵州电网公司</item>
+        <item>海南电网公司</item>
+        <item>广州供电局有限公司</item>
+        <item>深圳供电局有限公司</item>
+    </string-array>
+</resources>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/use_skill_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEE" >
+
+    <RelativeLayout
+        android:id="@+id/tv_above_title"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="#2477AB" >
+
+        <ImageButton
+            android:id="@+id/returnImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/login_button_padding"
+            android:background="@drawable/return_arrow_white"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/use_skill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/button_about"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/myScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_above_title"
+        android:layout_marginTop="10dp"
+        android:background="#EEE" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/step1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:gravity="left"
+                    android:text="@string/use_skill_step1"
+                    android:textColor="@color/list_font_color"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/use_skill_text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/step1"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left"
+                    android:text="@string/use_skill_text1"
+                    android:textColor="@color/list_font_color"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/use_skill_text1"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/setp1_icon" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/step2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:gravity="left"
+                    android:text="@string/use_skill_step2"
+                    android:textColor="@color/list_font_color"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/use_skill_text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/step2"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left"
+                    android:text="@string/use_skill_text2"
+                    android:textColor="@color/list_font_color"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/use_skill_text2"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/setp2_icon" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/step3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:gravity="left"
+                    android:text="@string/use_skill_step3"
+                    android:textColor="@color/list_font_color"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/use_skill_text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/step3"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left"
+                    android:text="@string/use_skill_text3"
+                    android:textColor="@color/list_font_color"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/use_skill_text3"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/setp3_icon" />
+            </RelativeLayout>
+<!--  
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/step4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:gravity="left"
+                    android:text="@string/use_skill_step4"
+                    android:textColor="@color/list_font_color"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/use_skill_text4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/step4"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="left"
+                    android:text="@string/use_skill_text4"
+                    android:textColor="@color/list_font_color"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/setp4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/use_skill_text4"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/setp4_icon" />
+            </RelativeLayout>
+            
+-->
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

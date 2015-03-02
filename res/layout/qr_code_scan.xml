@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <com.google.zxing.view.ViewfinderView
+        android:id="@+id/viewfinder_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center" >
+
+        <include layout="@layout/details_title" />
+
+        <ImageButton
+            android:id="@+id/mylight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/mylightText"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/scan_icon_bg"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/mylightText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:text="@string/openLight"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp14" />
+    </RelativeLayout>
+
+    <include layout="@layout/loading_layout" />
+
+</FrameLayout>

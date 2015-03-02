@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rect_gray"> 
+
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/rect_gray"
+	    android:padding="15dp" > 
+    <TextView
+        android:id="@+id/certificateId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:text="证书编号"
+        android:gravity="right"
+        android:textColor="@color/list_font_color"
+        android:textSize="@dimen/content_font_size" />
+
+    <TextView
+        android:id="@+id/certificateIdContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="right"
+        android:layout_toRightOf="@+id/certificateId"
+        android:textColor="@color/black"
+        android:textSize="@dimen/content_font_size"/>
+
+    <TextView
+        android:id="@+id/jobTypeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/certificateId"
+        android:layout_margin="5dp"
+        android:text="作业类别"
+        android:gravity="right"
+        android:textColor="@color/list_font_color"
+        android:textSize="@dimen/content_font_size" />
+
+    <TextView
+        android:id="@+id/jobTypeNameContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/certificateId"
+        android:layout_margin="5dp"
+        android:gravity="right"
+        android:layout_toRightOf="@+id/jobTypeName"
+        android:textColor="@color/black"
+        android:textSize="@dimen/content_font_size" />
+
+    <TextView
+        android:id="@+id/workTypeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jobTypeName"
+        android:layout_alignRight="@id/jobTypeName"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="&#160;&#160;&#160;&#160;工种"
+        android:gravity="right"
+        android:textColor="@color/list_font_color"
+        android:textSize="@dimen/content_font_size" />
+
+    <TextView
+        android:id="@+id/workTypeNameContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jobTypeName"
+        android:layout_margin="5dp"
+        android:gravity="right"
+        android:layout_toRightOf="@+id/workTypeName"
+        android:textColor="@color/black"
+        android:textSize="@dimen/content_font_size" />
+
+    <TextView
+        android:id="@+id/certificateDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/certificateDateContent"
+        android:layout_below="@+id/workTypeName"
+        android:layout_margin="5dp"
+        android:text="发证日期"
+        android:gravity="right"
+        android:textColor="@color/list_font_color"
+        android:textSize="@dimen/content_font_size" />
+
+    <TextView
+        android:id="@+id/certificateDateContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/workTypeNameContent"
+        android:layout_margin="5dp"
+        android:gravity="right"
+        android:layout_toRightOf="@+id/certificateDate"
+        android:textColor="@color/black"
+        android:textSize="@dimen/content_font_size" />
+
+    <TextView
+        android:id="@+id/certificateVaildDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/certificateVaildDateContent"
+        android:layout_below="@+id/certificateDate"
+        android:layout_margin="5dp"
+        android:text="有效日期"
+        android:gravity="right"
+        android:textColor="@color/list_font_color"
+        android:textSize="@dimen/content_font_size" />
+
+    <TextView
+        android:id="@+id/certificateVaildDateContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/certificateDateContent"
+        android:layout_margin="5dp"
+        android:gravity="right"
+        android:layout_toRightOf="@+id/certificateVaildDate"
+        android:textColor="@color/black"
+        android:textSize="@dimen/content_font_size" />  
+
+    <TextView
+        android:id="@+id/certifyingAuthorityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/certifyingAuthorityNameContent"
+        android:layout_below="@+id/certificateDate"
+        android:layout_margin="5dp"
+        android:text="发证单位"
+        android:gravity="right"
+        android:textColor="@color/list_font_color"
+        android:textSize="@dimen/content_font_size" />
+
+    <TextView
+        android:id="@+id/certifyingAuthorityNameContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/certificateVaildDateContent"
+        android:layout_margin="5dp"
+        android:gravity="right"
+        android:layout_toRightOf="@+id/certifyingAuthorityName"
+        android:textColor="@color/black"
+        android:textSize="@dimen/content_font_size" />
+    </RelativeLayout>
+</LinearLayout>
